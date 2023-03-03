@@ -7,9 +7,9 @@ A pre-trained SBERT model (https://www.sbert.net/) was fine tuned on this data s
 The model output embeddings were further analyzed by clustering the embeddings using hierarchical clustering, and the optimal number of clusters was briefly investigated.
 
 ## To run the code locally
-The code is not intended to be widely distributed, and its quality and structure reflect this. Names for files are hard coded, and it is assumed all needed files are stored in the same folder with the code. This should be customized if your setup does not reflect this. The files are available from [ADD LINK HERE]
+The code is not intended to be widely distributed, and its quality and structure reflect this. Names for files are hard coded, and it is assumed all needed files are stored in the same folder with the code. This should be customized if your setup does not reflect this. The files are available from https://drive.google.com/drive/folders/1Tz4PgypaVWHvDB8wGDk39yRBXXYMiLmN?usp=share_link
 
-If you run all the notebooks in order, only WoS_All_Most_cited.xls is needed, all other files will be generated at different stages along the process. An API key is needed for SerpAPI to fech the citation info for the papers. This must to be provided in SerpAPIBuildDataset.ipynb.
+If you run all the notebooks in order, only WoS_All_Most_cited.xls and Abstract.xls are needed, all other files will be generated at different stages along the process. An API key is needed for SerpAPI to fech the citation info for the papers. This must to be provided in SerpAPIBuildDataset.ipynb.
 
 The order of execution for the files here is as follows:
 
