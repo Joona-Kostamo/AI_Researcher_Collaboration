@@ -12,9 +12,13 @@ The code is not intended to be widely distributed, and its quality and structure
 If you run all the notebooks in order, only WoS_All_Most_cited.xls is needed, all other files will be generated at different stages along the process. An API key is needed for SerpAPI to fech the citation info for the papers. This must to be provided in SerpAPIBuildDataset.ipynb.
 
 The order of execution for the files here is as follows:
+
     1. SerpAPIBuildDataset.ipynb
+    
     2. ML_Large_dataset.ipynb
+    
     3. CreateEmbeddings.ipynb
+    
     4. EmbeddingsClustering.ipynb
     
 AbstractSearchService.py contains the search engine service code running on a Virtual Private Server.
