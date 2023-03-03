@@ -6,6 +6,8 @@ A pre-trained SBERT model (https://www.sbert.net/) was fine tuned on this data s
 
 The model output embeddings were further analyzed by clustering the embeddings using hierarchical clustering, and the optimal number of clusters was briefly investigated.
 
+The data set of papers with their citing paper info is in file WoS_With_Citations.xls, which is available here: https://docs.google.com/spreadsheets/d/1eVI1LieuzR3RDYQ2RABkHEZCk2f7rSnG/edit?usp=share_link&ouid=114372124154328258965&rtpof=true&sd=true
+
 ## To run the code locally
 The code is not intended to be widely distributed, and its quality and structure reflect this. Names for files are hard coded, and it is assumed all needed files are stored in the same folder with the code. This should be customized if your setup does not reflect this. The related files are available from https://drive.google.com/drive/folders/1Tz4PgypaVWHvDB8wGDk39yRBXXYMiLmN?usp=share_link
 
