@@ -1,6 +1,6 @@
 # Source code for "Collaboration Networks of AI Researchers" project for Collaborative Innovation Networks (COINs) Seminar 2022/2023
 
-The goal of this code was to build a data set of AI research papers containing citation infromation between papers, and then investigate the citation relationships between papers. A co-citation network was generated with external tools based on this data set to examine these relationships.
+The goal of this code was to build a data set of AI research papers containing citation infromation between papers, and then investigate the citation relationships between papers. A co-citation network was generated with Gephi (https://gephi.org/) based on this data set to examine these relationships.
 
 A pre-trained SBERT model (https://www.sbert.net/) was fine tuned on this data set to estimate semantic similarity between paper abstracts. The training was performed using cosine similarity loss on a binary classification task predicting existence of citation between papers. The model could then be used as a base for a AI research paper recommendation engine that takes an abstract as an input and returns a list of recommended papers based on semantic similarity of abstracts. This service has been made abailable on http://168.119.239.210/.
 
