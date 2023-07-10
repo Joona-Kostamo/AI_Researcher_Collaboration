@@ -23,6 +23,6 @@ The order of execution for the files here is as follows:
     
     4. EmbeddingsClustering.ipynb
     
-AbstractSearchService.py contains the search engine service code running on a Virtual Private Server.
+AbstractSearchService.py contains code for the search engine service that can be used to host the search engine.
 
 UseAbstractSearchAPI.ipynb contains an example code snippet for how the search service can be used programmatically.
